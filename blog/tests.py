@@ -2,7 +2,7 @@ from django.contrib.auth import get_user_model
 from django.test import TestCase
 from django.urls import reverse
 
-from .models import Post
+from models import Post
 
 class BlogTests(TestCase):
     @classmethod
